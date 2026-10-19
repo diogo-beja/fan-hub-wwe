@@ -1,0 +1,77 @@
+body{
+    background-color: #383737;
+    color:#ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    background-color: #920000;
+    border-bottom: 2px solid #440000;
+    padding: 1px;
+}
+
+
+#description{
+    font-size: 18px;
+    padding: 10px;
+}
+
+section{
+    background-color: #920000;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border: 2px solid #440000;
+    border-radius: 20px;
+}
+
+#searchId{
+    padding: 10px;
+    width: 70%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #440000;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #440000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #300000;
+}
+
+#superstarsContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.superstarCard{
+    background-color: #ffffff;
+    color: #383737;
+    border: 1px solid #440000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btnFav {
+    padding: 8px 12px;
+    background-color: #ffffff;
+    color: #920000;
+    border: 1px solid #920000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}

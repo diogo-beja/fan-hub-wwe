@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>WWE Fan Hub</title>
+</head>
+<body>
+    <header>
+        <h1>WWE Fan Hub</h1>
+    </header>
+    <main>
+        <p id="description">In this website you can explore the WWE Superstar roster, discover their brands and keep track of your favorite wrestlers</p>
+
+        <section>
+            <h2>Search Superstars</h2>
+
+            <input type="text" placeholder="Enter superstar name..." id="searchId">
+            <button class="btn">Search</button>
+        </section>
+        <section>
+            <h2>Filter by brands</h2>
+
+            <select id="brandFilter" class="btn">
+                <option>All brands</option>
+                <option>Raw</option>
+                <option>SmackDown</option>
+            </select>
+        </section>
+
+        <section>
+            <h2>Superstars</h2>
+
+            <div id="superstarsContainer">
+                <div class="superstarCard">
+                    <img src="/images/alexa_bliss.jpg" alt="Alexa Bliss" height="200" width=auto>
+                    <h3>Alexa Bliss</h3>
+                    <p>Brand: Smackdown</p>
+                    <button class="btnFav">Add to favorites</button>
+                </div>
+            </div>
+        </section>  
+        <p id="statusMessage">No results found.</p>
+    </main>
+    <footer>WWE Fan Hub — A fan-made project for learning web development.</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
